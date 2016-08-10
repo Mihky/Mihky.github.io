@@ -498,19 +498,19 @@ ul#social {
 .modal {
     opacity: 1; 
     transform: translateY(1000px);
-    position: fixed;
+    position: absolute;
     background: white;
     text-align: center;
-    width: 50%;
-    height: 70%;
+    width: 500px;
+    height: 600px;
     z-index: 1000;
-    bottom: 125%;
-    left: 25%;
     font-size: 13px;
     transition: linear 1.5s;
     font-weight: 700;
     color: black;
-    display:none;
+    display:table;
+    top:380vh;
+    left:32vw;
 }
 
 #X {
