@@ -433,20 +433,22 @@ ul#social {
 
 .modal {
     opacity: 1; 
-    position: fixed;
+    transform: translateY(1000px);
+    position: absolute;
     background: white;
     text-align: center;
-    width: 900px;
+    width: 500px;
     height: 600px;
     z-index: 1000;
     font-size: 13px;
     transition: linear 1.5s;
     font-weight: 700;
     color: black;
-    left: calc(50% - 450px);
-    top: calc(50% - 300px);
-    display:none;
+    display:table;
+    top:380vh;
+    left:32vw;
 }
+
 
 #X {
     height: 25px;
