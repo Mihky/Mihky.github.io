@@ -507,8 +507,8 @@ ul#social {
     transition: linear 1.5s;
     font-weight: 700;
     color: black;
-    display:table;
-    bottom: 125%;
+    display:none;
+    bottom: -340%;
     left:32vw;
     position: absolute;
 
