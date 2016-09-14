@@ -434,7 +434,6 @@ ul#social {
 .modal {
     opacity: 1; 
     transform: translateY(1000px);
-    position: absolute;
     background: white;
     text-align: center;
     width: 500px;
@@ -445,8 +444,10 @@ ul#social {
     font-weight: 700;
     color: black;
     display:table;
-    top:380vh;
+    bottom: 125%;
     left:32vw;
+    position: absolute;
+
 }
 
 #X {
