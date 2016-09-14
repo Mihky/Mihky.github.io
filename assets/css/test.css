@@ -443,7 +443,7 @@ ul#social {
     transition: linear 1.5s;
     font-weight: 700;
     color: black;
-    display:table;
+    display:none;
     bottom: 125%;
     left:32vw;
     position: absolute;
