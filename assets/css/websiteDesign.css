@@ -556,10 +556,21 @@ ul#social {
     height: 200px;
     width: 200px;
     margin-left: auto;
-    background: black;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    background: black;
+}
+
+#project-logo-2 {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: url("../img/pokemonAR-img.png") no-repeat center center;
+    background-size: cover;
 }
 
 #initials {

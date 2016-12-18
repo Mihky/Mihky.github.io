@@ -487,6 +487,18 @@ ul#social {
     margin-bottom: 20px;
 }
 
+#project-logo-2 {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: url("../img/pokemonAR-img.png") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #initials {
     color: white;
     font-family: 'lato',sans-serif;
