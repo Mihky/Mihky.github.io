@@ -163,31 +163,44 @@ img.circle {
     background-color: rgb(179,170,500);
 }
 
-#app {
+.app {
     height: 50px;
     width: 50px;
     position: absolute;
-    background: #f3e5c2;
     margin: 20px;
     border-radius: .4em;
+    border: solid;
+    border-width: 1px;
+}
+
+.app-name {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-top: 75px;
+    font-size: 10px;
+    margin-left: 5px;
+    color: white;
+}
+
+#portfolio-app {
+    background: #f3e5c2;
     font-size: 30px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     text-align: center;
     line-height: 1.7;
-    border: solid;
-    border-width: 1px;
 }
 
-#app-name {
-    position: absolute;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    margin-top: 75px;
-    font-size: 12px;
-    margin-left: 5px;
-    color: white;
+#pokemonAR-app {
+    background: url("../img/pokeball.jpg") no-repeat center center;
+    right:100;
+    border-radius: .5em;
+}
+
+#pokemonAR-position {
+    right:122;
 }
 
 .click:hover {
@@ -514,7 +527,7 @@ ul#social {
 
 }
 
-#X {
+.X {
     height: 25px;
     width: 15px;
     font-family: 'Lato', sans-serif;
@@ -525,7 +538,7 @@ ul#social {
     top: 10px;
 }
 
-#app-header {
+.app-header {
     font-size: 25px;
     font-family: 'Lato', sans-serif;
     height: 30px;
@@ -535,7 +548,7 @@ ul#social {
     margin-right: auto;
 }
 
-#X:hover {
+.X:hover {
     cursor: pointer;
 }
 
@@ -560,7 +573,7 @@ ul#social {
     top: 40px;
 }
 
-#project-description {
+.project-description {
     font-size: 20px;
     font-family: 'Lato',sans-serif;
     line-height: 1.3;
@@ -571,13 +584,13 @@ ul#social {
     background:white;
 }
 
-#project-description-container {
+.project-description-container {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#project-title {
+.project-title {
     font-family:'Lato', san-serif;
     font-size:30px;
     font-weight:900;
@@ -605,6 +618,10 @@ ul#social {
     margin: 0 auto;
 }
 
-#/*skills {
+.title-too-large {
+    font-size: 25px;
+}
+
+/*skills {
     margin-top: 100px;
 }*/

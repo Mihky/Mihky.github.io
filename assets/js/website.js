@@ -13,14 +13,32 @@ $(document).ready(function(){
 	});
 
 	//Brings up the modal box when clicking on the apps (personal projects) in the iPhone
-	$("#app").click(function(){
+	$("#portfolio-app").click(function(){
         setTimeout(function(){$(".backdrop").show();}, 500);
         setTimeout(function(){$(".modal").fadeIn();}, 1000);
+        $("#portfolio-modal").show();
+        $("#pokemonAR-modal").hide();
         $(".backdrop").click(function(){
        		$(".backdrop").hide();
        		$(".modal").hide();
        	});
        	$("#X").click(function(){
+       		$(".backdrop").hide();
+       		$(".modal").hide();
+       	});
+    });
+
+	//Brings up the modal box when clicking on the apps (personal projects) in the iPhone
+	$("#pokemonAR-app").click(function(){
+        setTimeout(function(){$(".backdrop").show();}, 500);
+        setTimeout(function(){$(".modal").fadeIn();}, 1000);
+        $("#portfolio-modal").hide();
+        $("#pokemonAR-modal").show();
+        $(".backdrop").click(function(){
+       		$(".backdrop").hide();
+       		$(".modal").hide();
+       	});
+       	$(".X").click(function(){
        		$(".backdrop").hide();
        		$(".modal").hide();
        	});
