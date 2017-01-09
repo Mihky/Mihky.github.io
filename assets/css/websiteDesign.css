@@ -392,7 +392,8 @@ img#after {
 }
 
 #third-wrapper {
-    background: url("../img/third-background.jpg") no-repeat center center;
+    background: #FF3366;
+    /*background: url("../img/third-background.jpg") no-repeat center center;*/
     background-size: cover;
     background-attachment: fixed;
 }
